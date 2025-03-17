@@ -1,0 +1,23 @@
+# Core dependencies
+streamlit>=1.30.0
+openai>=1.10.0
+pydantic>=2.5.0
+
+# Vector database and embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Web crawling and document processing
+requests>=2.31.0
+scrapy>=2.11.0
+PyMuPDF>=1.23.0
+
+# Testing
+pytest>=7.4.3
+pytest-cov>=4.1.0
+
+# Utility packages
+python-dotenv>=1.0.0
+tqdm>=4.66.1
+numpy>=1.23.5
+pandas>=2.1.0
