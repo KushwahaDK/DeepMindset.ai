@@ -1,0 +1,37 @@
+{
+    "topicId": "calculus",
+    "topicName": "Calculus",
+    "subTopics": [
+        {
+            "topicId": "differentiation",
+            "topicName": "Differentiation",
+            "subTopics": []
+        },
+        {
+            "topicId": "integral_calculus",
+            "topicName": "Integral Calculus",
+            "subTopics": []
+        },
+        {
+            "topicId": "gradient-based_optimization",
+            "topicName": "Gradient-based optimization",
+            "subTopics": [
+                {
+                    "topicId": "chain_rule",
+                    "topicName": "chain rule",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "partial_derivatives",
+                    "topicName": "partial derivatives",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "taylor_expansions_for_approximations",
+            "topicName": "Taylor expansions for approximations",
+            "subTopics": []
+        }
+    ]
+}

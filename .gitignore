@@ -42,8 +42,6 @@ logs/
 data/
 .coverage
 htmlcov/
-topic_store/raw/
-topic_store/topics/
 
 # Streamlit
 .streamlit/config.toml

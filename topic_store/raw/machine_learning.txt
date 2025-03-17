@@ -1,0 +1,57 @@
+Machine Learning
+    Supervised Learning
+        Classification
+            Binary Classification
+            Multi-class Classification
+            Multi-label Classification
+        Regression
+            Linear Regression
+            Polynomial Regression
+            Ridge Regression
+            Lasso Regression
+    Unsupervised Learning
+        Clustering
+            K-Means
+            Hierarchical Clustering
+            DBSCAN
+        Dimensionality Reduction
+            Principal Component Analysis (PCA)
+            t-SNE
+            UMAP
+    Reinforcement Learning
+        Q-Learning
+        Deep Q-Networks (DQN)
+        Policy Gradients
+        Actor-Critic Methods
+    Deep Learning
+        Neural Networks
+            Feedforward Neural Networks
+            Convolutional Neural Networks (CNN)
+            Recurrent Neural Networks (RNN)
+            Transformers
+        Activation Functions
+            ReLU
+            Sigmoid
+            Tanh
+            Softmax
+        Optimization
+            Gradient Descent
+            Adam
+            RMSprop
+            AdaGrad
+    Evaluation Metrics
+        Classification Metrics
+            Accuracy
+            Precision
+            Recall
+            F1 Score
+            ROC-AUC
+        Regression Metrics
+            Mean Squared Error (MSE)
+            Mean Absolute Error (MAE)
+            R-squared
+    Feature Engineering
+        Feature Selection
+        Feature Extraction
+        Feature Transformation
+        Feature Scaling 

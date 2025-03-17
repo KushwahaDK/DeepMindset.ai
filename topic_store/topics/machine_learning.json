@@ -1,0 +1,34 @@
+{
+    "topicId": "machine_learning",
+    "topicName": "Machine Learning",
+    "subTopics": [
+      {
+        "topicId": "supervised_learning",
+        "topicName": "Supervised Learning",
+        "subTopics": [
+          {
+            "topicId": "linear_regression",
+            "topicName": "Linear Regression",
+            "subTopics": []
+          },
+          {
+            "topicId": "logistic_regression",
+            "topicName": "Logistic Regression",
+            "subTopics": [
+              {
+                "topicId": "binary_classification",
+                "topicName": "Binary Classification",
+                "subTopics": []
+              },
+              {
+                "topicId": "multiclass_classification",
+                "topicName": "Multiclass Classification",
+                "subTopics": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

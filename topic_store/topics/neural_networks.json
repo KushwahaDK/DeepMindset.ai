@@ -1,0 +1,137 @@
+{
+    "topicId": "neural_networks",
+    "topicName": "Neural Networks",
+    "subTopics": [
+        {
+            "topicId": "fully_connected_networks",
+            "topicName": "Fully Connected Networks",
+            "subTopics": []
+        },
+        {
+            "topicId": "activation_functions",
+            "topicName": "Activation functions",
+            "subTopics": [
+                {
+                    "topicId": "sigmoid",
+                    "topicName": "Sigmoid",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "tanh",
+                    "topicName": "TanH",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "softmax",
+                    "topicName": "SoftMax",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "relu",
+                    "topicName": "ReLU",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "leakyrelu",
+                    "topicName": "LeakyReLU",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "loss_functions",
+            "topicName": "Loss Functions",
+            "subTopics": [
+                {
+                    "topicId": "mse_(mean_squared_error)",
+                    "topicName": "MSE (Mean Squared Error)",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "binary_cross_entropy_loss",
+                    "topicName": "Binary Cross Entropy Loss",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "categorical_cross_entropy_loss",
+                    "topicName": "Categorical Cross entropy Loss",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "optimizers",
+            "topicName": "Optimizers",
+            "subTopics": [
+                {
+                    "topicId": "gradient_descent_variants",
+                    "topicName": "Gradient Descent Variants",
+                    "subTopics": [
+                        {
+                            "topicId": "batch_gradient_descent",
+                            "topicName": "Batch Gradient Descent",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "stochastic_gradient_descent",
+                            "topicName": "Stochastic Gradient descent",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "mini_batch_gradient_descent",
+                            "topicName": "Mini Batch Gradient descent",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "momentum_based",
+                    "topicName": "Momentum based",
+                    "subTopics": [
+                        {
+                            "topicId": "momentum",
+                            "topicName": "Momentum",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "nesterov_accelerated_gradient_(nag)",
+                            "topicName": "Nesterov Accelerated Gradient (NAG)",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "adaptive_learning_rate_optimizers",
+                    "topicName": "Adaptive Learning Rate Optimizers",
+                    "subTopics": [
+                        {
+                            "topicId": "adagrad",
+                            "topicName": "Adagrad",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "rmsprop",
+                            "topicName": "RMSProp",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "adadelta",
+                            "topicName": "Adadelta",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "adam_(adaptive_moment_estimation)",
+                            "topicName": "Adam (Adaptive Moment Estimation)",
+                            "subTopics": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topicId": "multilayer_perceptrons",
+            "topicName": "Multilayer Perceptrons",
+            "subTopics": []
+        }
+    ]
+}

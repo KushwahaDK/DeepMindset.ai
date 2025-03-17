@@ -1,0 +1,26 @@
+Neural Networks
+    Fully Connected Networks
+    Activation functions
+        Sigmoid
+        TanH
+        SoftMax
+        ReLU
+        LeakyReLU
+    Loss Functions
+        MSE (Mean Squared Error)
+        Binary Cross Entropy Loss
+        Categorical Cross entropy Loss
+    Optimizers
+        Gradient Descent Variants
+            Batch Gradient Descent
+            Stochastic Gradient descent
+            Mini Batch Gradient descent
+        Momentum based
+            Momentum
+            Nesterov Accelerated Gradient (NAG)
+        Adaptive Learning Rate Optimizers
+            Adagrad
+            RMSProp
+            Adadelta
+            Adam (Adaptive Moment Estimation)
+    Multilayer Perceptrons

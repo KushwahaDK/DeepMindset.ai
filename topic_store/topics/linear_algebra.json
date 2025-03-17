@@ -1,0 +1,73 @@
+{
+    "topicId": "linear_algebra",
+    "topicName": "Linear Algebra",
+    "subTopics": [
+        {
+            "topicId": "matrix_operations",
+            "topicName": "Matrix operations",
+            "subTopics": []
+        },
+        {
+            "topicId": "eigenvalues",
+            "topicName": "Eigenvalues",
+            "subTopics": []
+        },
+        {
+            "topicId": "eigenvectors",
+            "topicName": "Eigenvectors",
+            "subTopics": [
+                {
+                    "topicId": "singular_value_decomposition",
+                    "topicName": "Singular Value Decomposition",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "left_singular_vectors",
+                    "topicName": "Left Singular Vectors",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "singular_values",
+                    "topicName": "Singular Values",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "right_singular_vectors",
+                    "topicName": "Right Singular Vectors",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "vector_spaces",
+            "topicName": "Vector spaces",
+            "subTopics": []
+        },
+        {
+            "topicId": "projections",
+            "topicName": "Projections",
+            "subTopics": []
+        },
+        {
+            "topicId": "distance_metrics",
+            "topicName": "Distance metrics",
+            "subTopics": [
+                {
+                    "topicId": "euclidean_distance",
+                    "topicName": "Euclidean Distance",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "manhattan_distance",
+                    "topicName": "Manhattan Distance",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "cosine_similarity",
+                    "topicName": "Cosine Similarity",
+                    "subTopics": []
+                }
+            ]
+        }
+    ]
+}

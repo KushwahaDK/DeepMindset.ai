@@ -1,0 +1,7 @@
+Calculus
+    Differentiation
+    Integral Calculus
+    Gradient-based optimization
+        chain rule
+        partial derivatives
+    Taylor expansions for approximations

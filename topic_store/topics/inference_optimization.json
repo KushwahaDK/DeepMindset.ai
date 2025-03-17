@@ -1,0 +1,53 @@
+{
+    "topicId": "inference_optimization",
+    "topicName": "Inference Optimization",
+    "subTopics": [
+        {
+            "topicId": "quantization",
+            "topicName": "Quantization",
+            "subTopics": [
+                {
+                    "topicId": "8-bit",
+                    "topicName": "8-bit",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "4-bit",
+                    "topicName": "4-bit",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "2-bit",
+                    "topicName": "2-bit",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "pruning",
+            "topicName": "Pruning",
+            "subTopics": []
+        },
+        {
+            "topicId": "distillation",
+            "topicName": "Distillation",
+            "subTopics": []
+        },
+        {
+            "topicId": "deployment_decision",
+            "topicName": "Deployment decision",
+            "subTopics": [
+                {
+                    "topicId": "gpu_vs._cpu_vs._tpu",
+                    "topicName": "GPU vs. CPU vs. TPU",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "trade-offs_for_latency,_throughput,_cost",
+                    "topicName": "Trade-offs for latency, throughput, cost",
+                    "subTopics": []
+                }
+            ]
+        }
+    ]
+}

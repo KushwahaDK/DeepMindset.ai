@@ -1,0 +1,14 @@
+Linear Algebra
+    Matrix operations
+    Eigenvalues
+    Eigenvectors
+        Singular Value Decomposition
+        Left Singular Vectors
+        Singular Values
+        Right Singular Vectors
+    Vector spaces
+    Projections
+    Distance metrics
+        Euclidean Distance
+        Manhattan Distance
+        Cosine Similarity

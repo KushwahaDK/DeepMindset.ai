@@ -1,0 +1,10 @@
+Inference Optimization
+    Quantization
+        8-bit
+        4-bit
+        2-bit
+    Pruning
+    Distillation
+    Deployment decision
+        GPU vs. CPU vs. TPU 
+        Trade-offs for latency, throughput, cost

@@ -1,0 +1,130 @@
+{
+    "topicId": "ml_model_deployments",
+    "topicName": "ML Model Deployments",
+    "subTopics": [
+        {
+            "topicId": "deployment_strategies",
+            "topicName": "Deployment Strategies",
+            "subTopics": [
+                {
+                    "topicId": "online_inference",
+                    "topicName": "Online Inference",
+                    "subTopics": [
+                        {
+                            "topicId": "real-time_apis",
+                            "topicName": "Real-time APIs",
+                            "subTopics": [
+                                {
+                                    "topicId": "rest",
+                                    "topicName": "REST",
+                                    "subTopics": []
+                                },
+                                {
+                                    "topicId": "grpc",
+                                    "topicName": "gRPC",
+                                    "subTopics": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "topicId": "batch_inference",
+                    "topicName": "Batch Inference",
+                    "subTopics": [
+                        {
+                            "topicId": "scheduled_jobs",
+                            "topicName": "Scheduled jobs",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "large-scale_offline_processing",
+                            "topicName": "large-scale offline processing",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "hybrid_approaches",
+                    "topicName": "Hybrid Approaches",
+                    "subTopics": [
+                        {
+                            "topicId": "combining_real-time_and_batch_processing",
+                            "topicName": "Combining real-time and batch processing",
+                            "subTopics": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topicId": "optimized_for_latency_and_resource_utilization",
+            "topicName": "Optimized for Latency and Resource Utilization",
+            "subTopics": [
+                {
+                    "topicId": "model_compression",
+                    "topicName": "Model compression",
+                    "subTopics": [
+                        {
+                            "topicId": "quantization",
+                            "topicName": "Quantization",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "pruning",
+                            "topicName": "Pruning",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "knowledge_distillation_for_lightweight_models",
+                    "topicName": "Knowledge Distillation for lightweight models",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "model_optimization_for_hardware",
+                    "topicName": "Model Optimization for Hardware",
+                    "subTopics": [
+                        {
+                            "topicId": "tensorrt",
+                            "topicName": "TensorRT",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "triton_inference_server",
+                            "topicName": "Triton Inference Server",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "onnx_format",
+                            "topicName": "ONNX format",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "hardware_acceleration",
+                    "topicName": "Hardware acceleration",
+                    "subTopics": [
+                        {
+                            "topicId": "gpus",
+                            "topicName": "GPUs",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "tpus",
+                            "topicName": "TPUs",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "fpgas",
+                            "topicName": "FPGAs",
+                            "subTopics": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

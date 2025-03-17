@@ -1,0 +1,24 @@
+ML Model Deployments
+    Deployment Strategies
+        Online Inference
+            Real-time APIs
+                REST
+                gRPC
+        Batch Inference
+            Scheduled jobs
+            large-scale offline processing
+        Hybrid Approaches
+            Combining real-time and batch processing
+    Optimized for Latency and Resource Utilization
+        Model compression
+            Quantization
+            Pruning
+        Knowledge Distillation for lightweight models
+        Model Optimization for Hardware
+            TensorRT
+            Triton Inference Server
+            ONNX format
+        Hardware acceleration
+            GPUs
+            TPUs
+            FPGAs
