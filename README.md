@@ -30,7 +30,7 @@ DeepMindset.ai follows a modular architecture pattern:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/deepmindset.ai.git
+   git clone https://github.com/KushwahaDK/DeepMindset.ai.git
    cd deepmindset.ai
    ```
 
