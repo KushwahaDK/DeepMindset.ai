@@ -117,7 +117,7 @@ def update_topics():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    raw_files = glob.glob(os.path.join(raw_dir, '*.txt'))  # Get all .txt files in the raw folder
+    raw_files = glob.glob(os.path.join(raw_dir, '**', '*.txt'), recursive=True)  # Get all .txt files recursively in the raw folder
     
     if not raw_files:
         logger.warning("No raw topic files found to process.")

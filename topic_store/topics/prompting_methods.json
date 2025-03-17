@@ -1,0 +1,31 @@
+{
+    "topicId": "prompting_methods",
+    "topicName": "Prompting Methods",
+    "subTopics": [
+        {
+            "topicId": "zero-shot_prompting_provide_instructions_without_examples",
+            "topicName": "Zero-Shot Prompting Provide instructions without examples",
+            "subTopics": []
+        },
+        {
+            "topicId": "one-shot_/_few-shot_prompting_provide_minimal_examples_to_guide_the_model",
+            "topicName": "One-Shot / Few-Shot Prompting Provide minimal examples to guide the model",
+            "subTopics": []
+        },
+        {
+            "topicId": "chain-of-thought_prompting_encourage_step-by-step_reasoning",
+            "topicName": "Chain-of-Thought Prompting Encourage step-by-step reasoning",
+            "subTopics": []
+        },
+        {
+            "topicId": "instruction_templates_structured_input_to_elicit_specific_outputs",
+            "topicName": "Instruction Templates Structured input to elicit specific outputs",
+            "subTopics": []
+        },
+        {
+            "topicId": "react_(reason_and_then_act)",
+            "topicName": "ReAct (Reason and then Act)",
+            "subTopics": []
+        }
+    ]
+}

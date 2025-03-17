@@ -1,0 +1,75 @@
+{
+    "topicId": "transformer_architecture",
+    "topicName": "Transformer Architecture",
+    "subTopics": [
+        {
+            "topicId": "self-attention_mechanism",
+            "topicName": "Self-Attention Mechanism",
+            "subTopics": [
+                {
+                    "topicId": "scaled_dot-product_attention",
+                    "topicName": "Scaled dot-product attention",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "key-query-value",
+                    "topicName": "Key-query-value",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "positional_encoding",
+            "topicName": "Positional Encoding",
+            "subTopics": [
+                {
+                    "topicId": "sinusoidal_embeddings",
+                    "topicName": "Sinusoidal embeddings",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "absolute_positional_embeddings",
+                    "topicName": "Absolute positional embeddings",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "relative_positional_embeddings",
+                    "topicName": "Relative positional embeddings",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "multi-head_attention",
+            "topicName": "Multi-Head Attention",
+            "subTopics": [
+                {
+                    "topicId": "parallel_attention_heads_for_richer_representation",
+                    "topicName": "Parallel attention heads for richer representation",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "feed-forward_networks",
+            "topicName": "Feed-Forward Networks",
+            "subTopics": [
+                {
+                    "topicId": "layer_normalization",
+                    "topicName": "Layer normalization",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "residual_connections",
+                    "topicName": "residual connections",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "encoder-decoder_vs._decoder-only",
+            "topicName": "Encoder-Decoder vs. Decoder-Only",
+            "subTopics": []
+        }
+    ]
+}

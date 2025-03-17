@@ -1,0 +1,47 @@
+{
+    "topicId": "fine-tuning_techniques",
+    "topicName": "Fine-Tuning Techniques",
+    "subTopics": [
+        {
+            "topicId": "full-model_fine-tuning",
+            "topicName": "Full-Model Fine-Tuning",
+            "subTopics": []
+        },
+        {
+            "topicId": "parameter-efficient_fine-tuning_(peft)",
+            "topicName": "Parameter-Efficient Fine-Tuning (PEFT)",
+            "subTopics": [
+                {
+                    "topicId": "lora_(low-rank_adaptation)",
+                    "topicName": "LoRA (Low-Rank Adaptation)",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "q-lora_(quantized_low_rank_adaption)",
+                    "topicName": "Q-LoRA (Quantized Low Rank Adaption)",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "prefix_tuning_/_p-tuning",
+            "topicName": "Prefix Tuning / P-Tuning",
+            "subTopics": []
+        },
+        {
+            "topicId": "adapters_(e.g.,_houlsby_adapters)",
+            "topicName": "Adapters (e.g., Houlsby adapters)",
+            "subTopics": []
+        },
+        {
+            "topicId": "instruction_tuning_fine-tuning",
+            "topicName": "Instruction Tuning Fine-tuning",
+            "subTopics": []
+        },
+        {
+            "topicId": "rlhf_(reinforcement_learning_from_human_feedback)",
+            "topicName": "RLHF (Reinforcement Learning from Human Feedback)",
+            "subTopics": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+Transformer Architecture
+    Self-Attention Mechanism
+        Scaled dot-product attention
+        Key-query-value
+    Positional Encoding
+        Sinusoidal embeddings
+        Absolute positional embeddings
+        Relative positional embeddings
+    Multi-Head Attention
+        Parallel attention heads for richer representation
+    Feed-Forward Networks
+        Layer normalization
+        residual connections
+    Encoder-Decoder vs. Decoder-Only

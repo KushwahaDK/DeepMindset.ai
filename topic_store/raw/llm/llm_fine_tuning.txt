@@ -1,0 +1,9 @@
+Fine-Tuning Techniques
+    Full-Model Fine-Tuning
+    Parameter-Efficient Fine-Tuning (PEFT)
+        LoRA (Low-Rank Adaptation)
+        Q-LoRA (Quantized Low Rank Adaption)
+    Prefix Tuning / P-Tuning
+    Adapters (e.g., Houlsby adapters)
+    Instruction Tuning Fine-tuning
+    RLHF (Reinforcement Learning from Human Feedback)

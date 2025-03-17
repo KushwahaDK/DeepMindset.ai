@@ -1,0 +1,46 @@
+{
+    "topicId": "controlling_llm_generation",
+    "topicName": "Controlling LLM Generation",
+    "subTopics": [
+        {
+            "topicId": "temperature",
+            "topicName": "Temperature",
+            "subTopics": []
+        },
+        {
+            "topicId": "top-k",
+            "topicName": "Top-k",
+            "subTopics": []
+        },
+        {
+            "topicId": "top-p_(nucleus)",
+            "topicName": "Top-p (Nucleus)",
+            "subTopics": []
+        },
+        {
+            "topicId": "max_token_length",
+            "topicName": "Max token length",
+            "subTopics": []
+        },
+        {
+            "topicId": "beam_search",
+            "topicName": "Beam Search",
+            "subTopics": []
+        },
+        {
+            "topicId": "diverse_beam_search",
+            "topicName": "Diverse Beam Search",
+            "subTopics": []
+        },
+        {
+            "topicId": "length_penalties",
+            "topicName": "Length Penalties",
+            "subTopics": []
+        },
+        {
+            "topicId": "repetition_penalties",
+            "topicName": "Repetition Penalties",
+            "subTopics": []
+        }
+    ]
+}

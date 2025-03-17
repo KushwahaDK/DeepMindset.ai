@@ -1,0 +1,9 @@
+Controlling LLM Generation
+    Temperature
+    Top-k
+    Top-p (Nucleus)
+    Max token length
+    Beam Search
+    Diverse Beam Search
+    Length Penalties
+    Repetition Penalties

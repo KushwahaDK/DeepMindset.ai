@@ -25,9 +25,6 @@ def main():
     # Set page configuration
     setup_page_config()
 
-    # Set up the main layout with title
-    st.title("DeepMindset.ai")
-
     # Create a layout with main content and right sidebar
     main_col, right_sidebar = st.columns([3, 1], gap="medium")
 
@@ -54,7 +51,7 @@ def setup_navigation():
     """
     Set up the navigation sidebar with buttons for different pages.
     """
-    st.sidebar.title("Navigation")
+    st.sidebar.title(":blue[DeepMindset.ai]")
 
     # Initialize session state for current page if not set
     if "current_page" not in st.session_state:
@@ -81,6 +78,7 @@ def setup_navigation():
         st.session_state.difficulty = st.sidebar.selectbox(
             "Select Difficulty", 
             ["Easy", "Medium", "Hard", "Expert"],
+            index=1,
             key="difficulty_selector"
         )
         st.session_state.stay_topic = st.sidebar.checkbox(

@@ -1,0 +1,6 @@
+Prompting Methods
+    Zero-Shot Prompting Provide instructions without examples
+    One-Shot / Few-Shot Prompting Provide minimal examples to guide the model
+    Chain-of-Thought Prompting Encourage step-by-step reasoning
+    Instruction Templates Structured input to elicit specific outputs   
+    ReAct (Reason and then Act)
