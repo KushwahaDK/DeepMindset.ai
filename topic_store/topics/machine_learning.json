@@ -2,33 +2,300 @@
     "topicId": "machine_learning",
     "topicName": "Machine Learning",
     "subTopics": [
-      {
-        "topicId": "supervised_learning",
-        "topicName": "Supervised Learning",
-        "subTopics": [
-          {
-            "topicId": "linear_regression",
-            "topicName": "Linear Regression",
-            "subTopics": []
-          },
-          {
-            "topicId": "logistic_regression",
-            "topicName": "Logistic Regression",
+        {
+            "topicId": "supervised_learning",
+            "topicName": "Supervised Learning",
             "subTopics": [
-              {
-                "topicId": "binary_classification",
-                "topicName": "Binary Classification",
-                "subTopics": []
-              },
-              {
-                "topicId": "multiclass_classification",
-                "topicName": "Multiclass Classification",
-                "subTopics": []
-              }
+                {
+                    "topicId": "classification",
+                    "topicName": "Classification",
+                    "subTopics": [
+                        {
+                            "topicId": "binary_classification",
+                            "topicName": "Binary Classification",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "multi-class_classification",
+                            "topicName": "Multi-class Classification",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "multi-label_classification",
+                            "topicName": "Multi-label Classification",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "regression",
+                    "topicName": "Regression",
+                    "subTopics": [
+                        {
+                            "topicId": "linear_regression",
+                            "topicName": "Linear Regression",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "polynomial_regression",
+                            "topicName": "Polynomial Regression",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "ridge_regression",
+                            "topicName": "Ridge Regression",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "lasso_regression",
+                            "topicName": "Lasso Regression",
+                            "subTopics": []
+                        }
+                    ]
+                }
             ]
-          }
-        ]
-      }
+        },
+        {
+            "topicId": "unsupervised_learning",
+            "topicName": "Unsupervised Learning",
+            "subTopics": [
+                {
+                    "topicId": "clustering",
+                    "topicName": "Clustering",
+                    "subTopics": [
+                        {
+                            "topicId": "k-means",
+                            "topicName": "K-Means",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "hierarchical_clustering",
+                            "topicName": "Hierarchical Clustering",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "dbscan",
+                            "topicName": "DBSCAN",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "dimensionality_reduction",
+                    "topicName": "Dimensionality Reduction",
+                    "subTopics": [
+                        {
+                            "topicId": "principal_component_analysis_(pca)",
+                            "topicName": "Principal Component Analysis (PCA)",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "t-sne",
+                            "topicName": "t-SNE",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "umap",
+                            "topicName": "UMAP",
+                            "subTopics": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topicId": "reinforcement_learning",
+            "topicName": "Reinforcement Learning",
+            "subTopics": [
+                {
+                    "topicId": "q-learning",
+                    "topicName": "Q-Learning",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "deep_q-networks_(dqn)",
+                    "topicName": "Deep Q-Networks (DQN)",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "policy_gradients",
+                    "topicName": "Policy Gradients",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "actor-critic_methods",
+                    "topicName": "Actor-Critic Methods",
+                    "subTopics": []
+                }
+            ]
+        },
+        {
+            "topicId": "deep_learning",
+            "topicName": "Deep Learning",
+            "subTopics": [
+                {
+                    "topicId": "neural_networks",
+                    "topicName": "Neural Networks",
+                    "subTopics": [
+                        {
+                            "topicId": "feedforward_neural_networks",
+                            "topicName": "Feedforward Neural Networks",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "convolutional_neural_networks_(cnn)",
+                            "topicName": "Convolutional Neural Networks (CNN)",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "recurrent_neural_networks_(rnn)",
+                            "topicName": "Recurrent Neural Networks (RNN)",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "transformers",
+                            "topicName": "Transformers",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "activation_functions",
+                    "topicName": "Activation Functions",
+                    "subTopics": [
+                        {
+                            "topicId": "relu",
+                            "topicName": "ReLU",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "sigmoid",
+                            "topicName": "Sigmoid",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "tanh",
+                            "topicName": "Tanh",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "softmax",
+                            "topicName": "Softmax",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "optimization",
+                    "topicName": "Optimization",
+                    "subTopics": [
+                        {
+                            "topicId": "gradient_descent",
+                            "topicName": "Gradient Descent",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "adam",
+                            "topicName": "Adam",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "rmsprop",
+                            "topicName": "RMSprop",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "adagrad",
+                            "topicName": "AdaGrad",
+                            "subTopics": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topicId": "evaluation_metrics",
+            "topicName": "Evaluation Metrics",
+            "subTopics": [
+                {
+                    "topicId": "classification_metrics",
+                    "topicName": "Classification Metrics",
+                    "subTopics": [
+                        {
+                            "topicId": "accuracy",
+                            "topicName": "Accuracy",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "precision",
+                            "topicName": "Precision",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "recall",
+                            "topicName": "Recall",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "f1_score",
+                            "topicName": "F1 Score",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "roc-auc",
+                            "topicName": "ROC-AUC",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "regression_metrics",
+                    "topicName": "Regression Metrics",
+                    "subTopics": [
+                        {
+                            "topicId": "mean_squared_error_(mse)",
+                            "topicName": "Mean Squared Error (MSE)",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "mean_absolute_error_(mae)",
+                            "topicName": "Mean Absolute Error (MAE)",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "r-squared",
+                            "topicName": "R-squared",
+                            "subTopics": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "topicId": "feature_engineering",
+            "topicName": "Feature Engineering",
+            "subTopics": [
+                {
+                    "topicId": "feature_selection",
+                    "topicName": "Feature Selection",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "feature_extraction",
+                    "topicName": "Feature Extraction",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "feature_transformation",
+                    "topicName": "Feature Transformation",
+                    "subTopics": []
+                },
+                {
+                    "topicId": "feature_scaling",
+                    "topicName": "Feature Scaling",
+                    "subTopics": []
+                }
+            ]
+        }
     ]
-  }
-  
+}

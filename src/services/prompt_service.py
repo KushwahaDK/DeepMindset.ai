@@ -107,3 +107,75 @@ Now, generate multiple-choice questions based on the following user specificatio
 
 Begin now.
 """ 
+
+def build_coding_question_generation_prompt(difficulty, topic=None):
+    """
+    Builds a prompt for GPT to generate coding interview questions based only on difficulty.
+    
+    Args:
+        difficulty (str): The difficulty level for the questions ("Easy", "Medium", "Hard", "Expert")
+        topic (str, optional): The hierarchy of topics/subtopics to cover (not used)
+        
+    Returns:
+        str: The formatted prompt
+    """
+    # Creating a mapping of difficulty levels to types of questions to generate
+    difficulty_focus = {
+        "Easy": "Focus on fundamental programming concepts, basic data structures (arrays, strings, simple loops), and straightforward problem-solving.",
+        "Medium": "Include questions on intermediate data structures (stacks, queues, trees), algorithms (sorting, searching, dynamic programming basics), and implementation of ML/DL components.",
+        "Hard": "Cover advanced algorithms (complex dynamic programming, graph algorithms), optimizations, and implementations of ML/DL architectures like CNNs or RNNs.",
+        "Expert": "Focus on cutting-edge ML/DL implementations (transformers, attention mechanisms, GANs), highly optimized algorithms, and complex system designs."
+    }
+    
+    focus_instruction = difficulty_focus.get(difficulty, difficulty_focus["Medium"])
+    
+    return f"""
+[SYSTEM / ROLE: Technical Interviewer and Programming Expert]
+
+You are an expert technical interviewer specializing in coding interviews for Machine Learning, Deep Learning, and Software Engineering positions. You will generate a detailed coding interview question in JSON format based on the specified difficulty level.
+
+For this {difficulty} level question:
+{focus_instruction}
+
+The question should:
+- Be clear, concise, and focused on testing both theoretical understanding and practical implementation
+- Include a well-defined problem statement with examples
+- Provide a complete solution with explanation
+- Match the specified difficulty level ({difficulty})
+
+Please generate the question in the following JSON format:
+
+1. **Format**: Provide the output as a JSON object with these keys:
+   - "question": (string) A clear and concise title for the coding problem.
+   - "description": (string) A detailed description of the problem, including context and requirements.
+   - "examples": (string) Example inputs and expected outputs to clarify the requirements.
+   - "constraints": (string) Any constraints or limitations for the problem.
+   - "solution": (string) High-level explanation of the solution approach.
+   - "code_solution": (string) A complete, well-commented code solution to the problem.
+   - "starter_code": (string) A template with the basic structure for the user to start coding (e.g., function signature, class definition).
+   - "language": (string) Programming language of the solution (default: "python").
+   - "explanation": (string) Detailed explanation of how the code works, key concepts, and time/space complexity.
+   - "difficulty": (string) Must exactly match one of: ["Easy", "Medium", "Hard", "Expert"] (use the specified difficulty).
+
+2. **Difficulty Levels**:
+   - Easy: Basic algorithms, simple implementations, 1-2 concepts.
+   - Medium: Intermediate algorithms, data structures, optimization, combining 2-3 concepts.
+   - Hard: Complex algorithms, optimizations, design patterns, combining multiple concepts.
+   - Expert: Very advanced topics, cutting-edge ML/DL techniques, highly optimized solutions.
+
+3. **Focus on Implementation**:
+   - Include code that demonstrates the implementation, not just theoretical explanations.
+   - For ML/DL questions, include relevant model architecture code or algorithm implementations.
+   - For algorithm questions, provide efficient solutions with proper time/space complexity analysis.
+   - The starter_code should provide just enough structure to get started, without giving away the solution.
+
+4. **Answer Strictly in JSON**:
+   - Do not include any markdown formatting or additional commentary outside the JSON.
+   - The JSON must be valid and parseable.
+
+---
+Now, generate a coding interview question based on the following difficulty level:
+- **Difficulty**: {difficulty}
+
+The question should test practical coding skills at the appropriate level of complexity.
+""" 

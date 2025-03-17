@@ -24,4 +24,20 @@ class SubjectiveQuestionFormat(BaseModel):
     """
     question: str = Field(..., description="The question text")
     explanation: str = Field(..., description="Explanation or answer to the question")
+    difficulty: str = Field(..., description="Difficulty level of the question")
+
+
+class CodingQuestionFormat(BaseModel):
+    """
+    Model for coding interview questions.
+    """
+    question: str = Field(..., description="The coding question title")
+    description: str = Field(..., description="Detailed description of the problem")
+    examples: str = Field(..., description="Example inputs and outputs")
+    constraints: str = Field(..., description="Constraints and limitations")
+    solution: str = Field(..., description="Explanation of the solution approach")
+    code_solution: str = Field(..., description="Code solution to the problem")
+    starter_code: str = Field(..., description="Starter code template for the problem")
+    language: str = Field(..., description="Programming language of the solution")
+    explanation: str = Field(..., description="Detailed explanation of the code and concepts")
     difficulty: str = Field(..., description="Difficulty level of the question") 
