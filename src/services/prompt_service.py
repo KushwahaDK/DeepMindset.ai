@@ -149,7 +149,6 @@ Please generate the question in the following JSON format:
    - "question": (string) A clear and concise title for the coding problem.
    - "description": (string) A detailed description of the problem, including context and requirements.
    - "examples": (string) Example inputs and expected outputs to clarify the requirements.
-   - "constraints": (string) Any constraints or limitations for the problem.
    - "solution": (string) High-level explanation of the solution approach.
    - "code_solution": (string) A complete, well-commented code solution to the problem.
    - "starter_code": (string) A template with the basic structure for the user to start coding (e.g., function signature, class definition).

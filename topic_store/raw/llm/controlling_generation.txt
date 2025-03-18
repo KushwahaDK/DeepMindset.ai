@@ -1,7 +1,7 @@
 Controlling LLM Generation
-    Temperature
-    Top-k
-    Top-p (Nucleus)
+    Temperature in LLM
+    Top-k in LLM
+    Top-p (Nucleus) in LLM
     Max token length
     Beam Search
     Diverse Beam Search

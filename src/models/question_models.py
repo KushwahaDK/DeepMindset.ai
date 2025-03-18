@@ -34,7 +34,6 @@ class CodingQuestionFormat(BaseModel):
     question: str = Field(..., description="The coding question title")
     description: str = Field(..., description="Detailed description of the problem")
     examples: str = Field(..., description="Example inputs and outputs")
-    constraints: str = Field(..., description="Constraints and limitations")
     solution: str = Field(..., description="Explanation of the solution approach")
     code_solution: str = Field(..., description="Code solution to the problem")
     starter_code: str = Field(..., description="Starter code template for the problem")
