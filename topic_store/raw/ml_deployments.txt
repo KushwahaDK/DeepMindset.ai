@@ -13,6 +13,8 @@ ML Model Deployments
         Model compression
             Quantization
             Pruning
+            Layer Fusion
+            Batch Normalization Removal
         Knowledge Distillation for lightweight models
         Model Optimization for Hardware
             TensorRT

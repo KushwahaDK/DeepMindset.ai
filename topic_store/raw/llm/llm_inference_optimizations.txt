@@ -4,6 +4,13 @@ Inference Optimization
         4-bit
         2-bit
     Pruning
+        Weight Pruning
+            Magnitude-Based Pruning
+            Gradient-Based Pruning
+            Hessian-Based Pruning (Second-Order Importance)
+        Activation Pruning
+            Average Activation Magnitude (Neuron Importance)
+            Sensitivity Analysis (How Much Does the Neuron Affect Output?)
     Distillation
     Deployment decision
         GPU vs. CPU vs. TPU 

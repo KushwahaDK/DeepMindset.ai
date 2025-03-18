@@ -74,6 +74,16 @@
                             "topicId": "pruning",
                             "topicName": "Pruning",
                             "subTopics": []
+                        },
+                        {
+                            "topicId": "layer_fusion",
+                            "topicName": "Layer Fusion",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "batch_normalization_removal",
+                            "topicName": "Batch Normalization Removal",
+                            "subTopics": []
                         }
                     ]
                 },

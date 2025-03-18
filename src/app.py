@@ -161,8 +161,7 @@ def render_mcq_page():
     """
     # Load first question automatically if none exists
     if st.session_state.mcq_question_data is None:
-        with st.spinner("Loading question..."):
-            load_new_mcq_question()
+        load_new_mcq_question()
 
     if st.session_state.mcq_question_data:
         question = st.session_state.mcq_question_data
@@ -260,8 +259,7 @@ def render_subjective_page():
     """
     # Load first question automatically if none exists
     if st.session_state.subj_question_data is None:
-        with st.spinner("Loading question..."):
-            load_new_subjective_question()
+        load_new_subjective_question()
 
     if st.session_state.subj_question_data:
         question = st.session_state.subj_question_data
@@ -343,8 +341,7 @@ def render_coding_interview_page():
     """
     # Load first question automatically if none exists
     if st.session_state.coding_question_data is None:
-        with st.spinner("Loading question..."):
-            load_new_coding_question()
+        load_new_coding_question()
 
     if st.session_state.coding_question_data:
         question = st.session_state.coding_question_data

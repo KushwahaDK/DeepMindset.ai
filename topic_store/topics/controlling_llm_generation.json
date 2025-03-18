@@ -3,18 +3,18 @@
     "topicName": "Controlling LLM Generation",
     "subTopics": [
         {
-            "topicId": "temperature",
-            "topicName": "Temperature",
+            "topicId": "temperature_in_llm",
+            "topicName": "Temperature in LLM",
             "subTopics": []
         },
         {
-            "topicId": "top-k",
-            "topicName": "Top-k",
+            "topicId": "top-k_in_llm",
+            "topicName": "Top-k in LLM",
             "subTopics": []
         },
         {
-            "topicId": "top-p_(nucleus)",
-            "topicName": "Top-p (Nucleus)",
+            "topicId": "top-p_(nucleus)_in_llm",
+            "topicName": "Top-p (Nucleus) in LLM",
             "subTopics": []
         },
         {

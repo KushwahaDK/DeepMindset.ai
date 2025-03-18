@@ -26,7 +26,45 @@
         {
             "topicId": "pruning",
             "topicName": "Pruning",
-            "subTopics": []
+            "subTopics": [
+                {
+                    "topicId": "weight_pruning",
+                    "topicName": "Weight Pruning",
+                    "subTopics": [
+                        {
+                            "topicId": "magnitude-based_pruning",
+                            "topicName": "Magnitude-Based Pruning",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "gradient-based_pruning",
+                            "topicName": "Gradient-Based Pruning",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "hessian-based_pruning_(second-order_importance)",
+                            "topicName": "Hessian-Based Pruning (Second-Order Importance)",
+                            "subTopics": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": "activation_pruning",
+                    "topicName": "Activation Pruning",
+                    "subTopics": [
+                        {
+                            "topicId": "average_activation_magnitude_(neuron_importance)",
+                            "topicName": "Average Activation Magnitude (Neuron Importance)",
+                            "subTopics": []
+                        },
+                        {
+                            "topicId": "sensitivity_analysis_(how_much_does_the_neuron_affect_output?)",
+                            "topicName": "Sensitivity Analysis (How Much Does the Neuron Affect Output?)",
+                            "subTopics": []
+                        }
+                    ]
+                }
+            ]
         },
         {
             "topicId": "distillation",
